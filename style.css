@@ -1,0 +1,40 @@
+body{
+  font-family: 'DM Sans';
+}
+
+
+/*MENU DESPLEGABLE CELULAR --------------------------------------------------------------------*/
+.navegacion {
+  display: none;
+}
+
+.navegacion a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.mostrar{display:block;}
+
+/* FINAL MENU DESPLEGABLE CELULAR --------------------------------------------------------------------*/
+
+
+/* INICIO MODAL BOX -------------------------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+
+.modal_container.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+/* FINAL MODAL BOX -------------------------------------------------------------------------------*/
+
+
+
+
